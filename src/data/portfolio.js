@@ -1,0 +1,128 @@
+export const personalInfo = {
+  name: 'Ausif Mohammad Rather',
+  role: 'Full-Stack MERN Developer',
+  tagline: 'Building scalable, production-grade web & mobile apps',
+  location: 'Kashmir, India',
+  email: 'uzairrather3147@gmail.com',
+  github: 'https://github.com/uzairrather',
+  linkedin: 'https://www.linkedin.com/feed/',
+  bio: `Full Stack MERN Developer with 3+ years of hands-on experience building scalable web and mobile applications using React.js, Next.js, Node.js, Express.js, MongoDB, and React Native. Experienced in JWT authentication, role-based access control, RESTful API design, and end-to-end deployment on AWS, Vercel, and Render.`,
+}
+
+export const skills = [
+  { name: 'React.js / Next.js', level: 92, category: 'Frontend' },
+  { name: 'Tailwind CSS', level: 92, category: 'Frontend' },
+  { name: 'TypeScript', level: 82, category: 'Frontend' },
+  { name: 'Redux Toolkit', level: 80, category: 'Frontend' },
+  { name: 'Three.js / Framer Motion', level: 83, category: 'Frontend' },
+  { name: 'Node.js / Express.js', level: 88, category: 'Backend' },
+  { name: 'REST API Design', level: 90, category: 'Backend' },
+  { name: 'JWT / OAuth / RBAC', level: 88, category: 'Backend' },
+  { name: 'Jest / Supertest', level: 78, category: 'Backend' },
+  { name: 'OpenCart / PHP', level: 74, category: 'Backend' },
+  { name: 'MongoDB / Mongoose', level: 88, category: 'Database' },
+  { name: 'PostgreSQL / MySQL', level: 73, category: 'Database' },
+  { name: 'AWS / Vercel / Render', level: 80, category: 'DevOps' },
+  { name: 'Docker / CI/CD', level: 72, category: 'DevOps' },
+  { name: 'React Native', level: 50, category: 'Frontend' },
+
+]
+
+export const experiences = [
+  {
+    company: 'GoExalt System LLP',
+    role: 'Full Stack MERN Developer',
+    period: '08-2024 – Present',
+    location: 'Sopore, Model Town, Jammu & Kashmir',
+    description: 'Built WonderLeap, a gamified career exploration platform for UK primary schools using React.js, Node.js, Express.js, and MongoDB Atlas. Implemented JWT authentication, role-based access for 5 user types (Super Admin, School Admin, Teacher, Student, Parent), mission assignment system, and server-side score validation against 15 attack vectors. Wrote 30 automated API tests using Jest and Supertest. Deployed on Render with Resend email integration and DKIM/SPF/DMARC domain verification.',
+    tags: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'Jest', 'Render'],
+  },
+  {
+    company: 'GoExalt System LLP',
+    role: 'React Developer Intern',
+    period: '02-2024 – 08-2024',
+    location: 'Srinagar, Jammu & Kashmir',
+    description: 'Built scalable React.js components with reusable architecture and responsive UI design. Developed Next.js pages with SSR and SSG for optimized performance. Applied TypeScript across the codebase, integrated REST APIs using Axios, and managed app-wide state using Redux Toolkit and Context API.',
+    tags: ['React.js', 'Next.js', 'TypeScript', 'Redux Toolkit', 'Axios'],
+  },
+  {
+    company: 'GlobalLogic Technologies Limited',
+    role: 'Context Engineering Analyst',
+    period: '01-2022 – 09-2023',
+    location: 'Gurugram',
+    description: 'Worked on joint body annotation and GLEW mask annotation for machine learning and AI-based projects. Performed smile detection and data labeling for computer vision applications. Collaborated with teams to optimize annotation processes and improve workflow efficiency.',
+    tags: ['ML Annotation', 'Computer Vision', 'Data Labeling', 'AI'],
+  },
+]
+
+export const projects = [
+  {
+  title: 'WonderLeap Platform',
+  category: 'Full-Stack / MERN',
+  description: 'Gamified career exploration platform for UK primary schools (KS1 & KS2). Multi-role system with 5 user types (Super Admin, School Admin, Teacher, Student, Parent), JWT-secured APIs, Avatar+PIN student auth (GDPR-compliant), real-time score tracking, badge rewards, 40+ career paths across 6 zones, and teacher-assigned missions with deadlines. Currently 1 game integrated out of 21+ planned career exploration games.',
+  tech: ['React.js', 'Node.js', 'MongoDB Atlas', 'Express.js', 'JWT', 'Tailwind CSS', 'Vite', 'Render'],
+  color: '#00ff87',
+  icon: '🎮',
+  stats: { roles: '5', careers: '40+', games: '21+' },
+  link: 'https://www.wonderleap.co.uk',
+  period: '10-2025 – 02-2026',
+},
+  {
+  title: 'AI Transcription App',
+  category: 'Full-Stack / AI',
+  description: 'AI-powered full-stack web app for video upload, processing, and transcription. Users sign in with Google OAuth, upload videos, and get accurate transcriptions powered by AssemblyAI with natural language processing via Groq LLM. Features transcription history, user dashboard, scalable REST APIs for managing uploads and results, secure authentication with Cloud client keys, and a fully responsive UI built with reusable React components.',
+  tech: ['React', 'Node.js', 'Express', 'MongoDB', 'Google OAuth', 'AssemblyAI', 'Groq LLM', 'Tailwind CSS'],
+  color: '#8b5cf6',
+  icon: '🤖',
+  stats: { auth: 'Google OAuth', ai: 'Groq LLM', transcription: 'AssemblyAI' },
+  link: 'https://ai-powered-frontend.vercel.app',
+  period: '05-2025',
+},
+{
+  title: 'GoExalt Company Website',
+  category: 'React / Three.js',
+  description: 'Official company website for GoExalt System LLP showcasing MERN Stack, Odoo, Salesforce, and Data Analytics services. Built with React, Vite, and Tailwind CSS featuring 3D particle animations, smooth Framer Motion page transitions, dynamic service dropdowns, responsive multi-page layout, and a working contact form with Resend email integration for lead notifications. Configured production deployment on GoDaddy with SSL and other.',
+  tech: ['React', 'Vite', 'Tailwind CSS', 'Three.js', 'Framer Motion', 'Resend', 'GoDaddy'],
+  color: '#06b6d4',
+  icon: '🌐',
+   stats: { services: '6', pages: '10+', deployment: 'Live' },
+  link: 'https://exaltsystem.com',
+  period: '2024',
+},
+ {
+  title: 'Offline Notes App',
+  category: 'Full-Stack / Mobile',
+  description: 'Full-stack cross-platform notes app with 3 separate modules — React Native Expo mobile app, React + Vite + TypeScript web app (PWA), and a Node.js backend server. Features offline-first architecture with local data persistence using AsyncStorage, auto-sync when back online, real-time note creation, editing and deletion, responsive UI across all screen sizes, and REST API integration with error handling and loading states. Built with TypeScript for type safety across all platforms.',
+  tech: ['React Native', 'Expo', 'React', 'Vite', 'TypeScript', 'Node.js', 'Tailwind CSS', 'PWA'],
+  color: '#f97316',
+  icon: '📝',
+  stats: { platforms: '2', backend: 'Node.js', offline: 'PWA' },
+  link: 'https://offline-notes-app-iota.vercel.app',
+  period: '2025',
+},
+
+{
+  title: 'NURUSA E-Commerce',
+  category: 'E-Commerce / OpenCart',
+  description: 'Full-featured stoles & scarves e-commerce store built on OpenCart with PHP and MySQL. Migrated USPS shipping from deprecated XML to OAuth REST API v3, integrated Authorize.Net payment gateway with secure tokenization, built custom checkout flows, product filtering, collection pages, and order management system. Implemented customer account management, guest checkout, responsive mobile UI, DKIM/SPF/DMARC email security, SSL configuration, and performance optimization for fast page loads.',
+  tech: ['OpenCart', 'PHP', 'MySQL', 'USPS API', 'Authorize.Net', 'JavaScript'],
+  color: '#ff006e',
+  icon: '🛍️',
+  stats: { uptime: '99.9%', api: 'USPS v3', payments: 'Auth.Net' },
+  link: 'https://nurusa.com',
+  period: '2023 – Present',
+},
+  {
+  title: 'GoExalt 3D Portfolio Website',
+  category: 'React / Three.js',
+  description: 'Immersive 3D company portfolio built with Three.js and React Three Fiber featuring a stars canvas background, animated hero section, 3D tech sphere, interactive work showcases, and smooth scroll-based animations. Included About, Experience timeline, Tech stack, Projects, Testimonials, and Contact sections with a floating stars canvas. Built as a prototype — not approved for production but demonstrated advanced 3D web capabilities.',
+  tech: ['React', 'Three.js', 'React Three Fiber', 'Tailwind CSS', 'Framer Motion'],
+  color: '#a855f7',
+  icon: '🎯',
+  stats: { sections: '8', canvas: '3D Stars', type: 'Prototype' },
+  link: 'https://uzair-tech-avwh.vercel.app',
+  period: '2024',
+},
+]
+
+export const skillCategories = ['All', 'Frontend', 'Backend', 'Database', 'DevOps']
